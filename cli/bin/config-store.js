@@ -8,7 +8,7 @@ const CONFIG_FILE = join(CONFIG_DIR, "config.json");
 const DEFAULT_CONFIG = {
   apiKey: "",
   model: "Msrfteam/Mervex-ai-v0.1-lite",
-  baseUrl: "https://mervexai.cc.cd",
+  baseUrl: "https://api.mervex.cc.cd",
 };
 
 export function loadConfig() {
@@ -43,7 +43,7 @@ export function getApiKey(override) {
 
 export function getBaseUrl(override) {
   const config = loadConfig();
-  return override || config.baseUrl || process.env.MERVEX_BASE_URL || "https://mervexai.cc.cd";
+  return override || config.baseUrl || process.env.MERVEX_BASE_URL || "https://api.mervex.cc.cd";
 }
 
 export function getModel(override) {

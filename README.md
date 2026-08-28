@@ -56,6 +56,13 @@ Describe an idea, get a full working app. React + Tailwind + Node.js full-stack 
 ### 3. Free API Key + OpenAI-compatible API
 Every registered user gets a free API key. Use any OpenAI-compatible client (curl, Python, Node.js, Postman) with the Mervex endpoint.
 
+**List available models:**
+```bash
+curl https://api.mervex.cc.cd/v1/models \
+  -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+**Chat completion:**
 ```bash
 curl https://api.mervex.cc.cd/v1/chat/completions \
   -H "Authorization: Bearer YOUR_API_KEY" \
@@ -65,6 +72,8 @@ curl https://api.mervex.cc.cd/v1/chat/completions \
     "messages": [{"role": "user", "content": "Hello!"}]
   }'
 ```
+
+> 💡 External tools (Open WebUI, LibreChat, LangChain, Cursor) can auto-discover Mervex models via `GET /v1/models`. Set `base_url=https://api.mervex.cc.cd/v1` and your API key.
 
 🔗 **Get your key:** https://mervexai.cc.cd/auth
 🔗 **API Docs:** https://mervexai.cc.cd/api-docs

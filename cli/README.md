@@ -6,7 +6,7 @@
 
 **Built by Msr F Team**
 
-[![npm version](https://img.shields.io/badge/npm-@msrfteam/mervexai-CC0000?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/@msrfteam/mervexai)
+[![npm version](https://img.shields.io/badge/npm-mervexai-CC0000?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/mervexai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Website](https://img.shields.io/badge/Website-mervexai.cc.cd-00C9FF?style=flat-square)](https://mervexai.cc.cd)
 
@@ -29,21 +29,21 @@ No middleware. Your requests go straight to the Mervex Ai API using your own fre
 ### Global install (recommended)
 
 ```bash
-npm install -g @msrfteam/mervexai
+npm install -g mervexai
 ```
 
 Or with yarn / pnpm / bun:
 
 ```bash
-yarn global add @msrfteam/mervexai
-pnpm add -g @msrfteam/mervexai
-bun add -g @msrfteam/mervexai
+yarn global add mervexai
+pnpm add -g mervexai
+bun add -g mervexai
 ```
 
 ### Run without installing (npx)
 
 ```bash
-npx @msrfteam/mervexai chat
+npx mervexai chat
 ```
 
 After installing, two commands are available: `mervex` and `mervexai`.

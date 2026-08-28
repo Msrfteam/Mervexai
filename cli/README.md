@@ -135,10 +135,10 @@ mervex init
 |-------|----------|-------|:-----------------:|:------:|
 | `Msrfteam/Mervex-ai-v0.1-lite` | Fast / General chat | ⚡ Fastest | x1 | Free |
 | `Msrfteam/Mervex-ai-v0.1` | Creative / Complex tasks | 🟢 Medium | x2 | Free |
-| `Msrfteam/Mervex-ai-v0.2` | Power / Advanced reasoning | 🔴 Powerful | x6 | Free |
-| `Msrfteam/Mervex-ai-v0.2-pro` | Ultra High Reasoning (thinking) | 🧠 Deep | x6 | VIP / Pro+ |
+| `Msrfteam/Mervex-ai-v0.2` | Power / Advanced reasoning | 🔴 Powerful | x4 | Free |
+| `Msrfteam/Mervex-ai-v0.2-pro` | Ultra High Reasoning (thinking) | 🧠 Deep | x8 | VIP / Pro+ |
 
-> **1 credit = 1,000 tokens.** Stronger models consume more credits per request (x1 / x2 / x6).
+> **1 credit = 1,000 tokens.** Stronger models consume more credits per request (x1 / x2 / x4 / x8).
 
 ---
 

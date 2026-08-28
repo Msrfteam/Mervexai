@@ -41,7 +41,7 @@ program
   .version(pkg.version, "-v, --version", "Show CLI version")
   .option("-m, --model <model>", "Mervex model to use", "Msrfteam/Mervex-ai-v0.1-lite")
   .option("-k, --api-key <key>", "Override Mervex API key")
-  .option("-b, --base-url <url>", "Override API base URL", "https://mervexai.cc.cd");
+  .option("-b, --base-url <url>", "Override API base URL", "https://api.mervex.cc.cd");
 
 program
   .command("init")

@@ -57,7 +57,7 @@ Describe an idea, get a full working app. React + Tailwind + Node.js full-stack 
 Every registered user gets a free API key. Use any OpenAI-compatible client (curl, Python, Node.js, Postman) with the Mervex endpoint.
 
 ```bash
-curl https://mervexai.cc.cd/v1/chat/completions \
+curl https://api.mervex.cc.cd/v1/chat/completions \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -106,7 +106,7 @@ All plans include access to all free models and the VibeCoder builder. Plans dif
 from openai import OpenAI
 
 client = OpenAI(
-    base_url="https://mervexai.cc.cd/v1",
+    base_url="https://api.mervex.cc.cd/v1",
     api_key="YOUR_API_KEY",
 )
 

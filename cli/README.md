@@ -108,7 +108,7 @@ mervex models
 mervex config --show
 mervex config --set-key YOUR_API_KEY
 mervex config --set-model Msrfteam/Mervex-ai-v0.1
-mervex config --set-url https://mervexai.cc.cd
+mervex config --set-url https://api.mervex.cc.cd
 ```
 
 ### `mervex init` — Guided setup
@@ -189,7 +189,7 @@ Mervex Ai CLI uses the **OpenAI-compatible** `/v1/chat/completions` endpoint. Yo
 from openai import OpenAI
 
 client = OpenAI(
-    base_url="https://mervexai.cc.cd/v1",
+    base_url="https://api.mervex.cc.cd/v1",
     api_key="YOUR_API_KEY",
 )
 response = client.chat.completions.create(

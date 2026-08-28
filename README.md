@@ -142,7 +142,7 @@ A powerful command-line AI coding assistant built by Msr F Team. Chat with Merve
 ### Install
 
 ```bash
-npm install -g @msrfteam/mervexai
+npm install -g mervexai
 ```
 
 ### Quick start
@@ -158,7 +158,7 @@ mervex config --show           # Show configuration
 > Get your free API key: https://mervexai.cc.cd/auth
 
 🔗 **CLI Guide:** https://mervexai.cc.cd/cli
-🔗 **npm:** https://www.npmjs.com/package/@msrfteam/mervexai
+🔗 **npm:** https://www.npmjs.com/package/mervexai
 
 ---
 

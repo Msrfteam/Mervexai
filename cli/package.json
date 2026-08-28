@@ -1,0 +1,56 @@
+{
+  "name": "@msrfteam/mervexai",
+  "version": "1.0.0",
+  "description": "Mervex Ai CLI — Powerful AI coding assistant for your terminal. Built by Msr F Team.",
+  "main": "bin/mervex.js",
+  "bin": {
+    "mervex": "bin/mervex.js",
+    "mervexai": "bin/mervex.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node bin/mervex.js"
+  },
+  "keywords": [
+    "mervex",
+    "mervexai",
+    "ai",
+    "cli",
+    "coding",
+    "assistant",
+    "ai-cli",
+    "code-generation",
+    "msrfteam",
+    "msr-f-team",
+    "chatbot",
+    "terminal"
+  ],
+  "author": "Msr F Team <msrfteamofficial@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://mervexai.cc.cd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Msrfteam/Mervexai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Msrfteam/Mervexai/issues",
+    "email": "msrfteamofficial@gmail.com"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "ora": "^8.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ]
+}

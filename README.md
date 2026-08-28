@@ -35,11 +35,11 @@ All models are accessible through a single platform API key.
 |-------|----------|-------|:-----------------:|:-----:|
 | **Mervex Ai V0.1 Lite** | Fast / General chat | ⚡ Fastest | x1 | Free |
 | **Mervex Ai V0.1** | Creative / Complex tasks | 🟢 Medium | x2 | Free |
-| **Mervex Ai V0.2** | Power / Advanced reasoning | 🔴 Powerful | x6 | Free |
-| **Mervex Ai V0.2 Pro** | Ultra High Reasoning (thinking) | 🧠 Deep | x6 | VIP / Pro+ |
+| **Mervex Ai V0.2** | Power / Advanced reasoning | 🔴 Powerful | x4 | Free |
+| **Mervex Ai V0.2 Pro** | Ultra High Reasoning (thinking) | 🧠 Deep | x8 | VIP / Pro+ |
 
 > **Vision (image input):** Supported on **Mervex Ai V0.2** only. V0.2 Pro is text-only reasoning.
-> **Credit system:** 1 credit = 1,000 tokens. Stronger models consume more credits per request (x1 / x2 / x6).
+> **Credit system:** 1 credit = 1,000 tokens. Stronger models consume more credits per request (x1 / x2 / x4 / x8).
 
 ---
 
@@ -89,7 +89,7 @@ All plans include access to all free models and the VibeCoder builder. Plans dif
 | **Premium** | 10,000 | 40 / 1,000 | 20 | 60 | $30 |
 
 > 💎 **Admin** accounts are unlimited.
-> 💰 Credits are **per-token**, not per-request. A V0.2 (x6) request costs 6× more credits than a Lite (x1) request, so choosing the right model stretches your daily budget.
+> 💰 Credits are **per-token**, not per-request. A V0.2 Pro (x8) request costs 8× more credits than a Lite (x1) request, so choosing the right model stretches your daily budget.
 
 🔗 **Full pricing:** https://mervexai.cc.cd/pricing
 

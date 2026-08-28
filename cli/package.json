@@ -1,5 +1,5 @@
 {
-  "name": "@msrfteam/mervexai",
+  "name": "mervexai",
   "version": "1.0.0",
   "description": "Mervex Ai CLI — Powerful AI coding assistant for your terminal. Built by Msr F Team.",
   "main": "bin/mervex.js",

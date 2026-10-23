@@ -50,7 +50,7 @@ Mervex is a free AI platform with **100+ models behind one OpenAI-compatible key
 | Decision API | 10,000 lifetime requests |
 | Vision | 10 images/month |
 
-Full documentation: **https://api.mervex.cc.cd/api/openapi.json** and [github.com/Msrfteam/Mervex](https://github.com/Msrfteam/Mervex)
+Full documentation: **[Postman API docs](https://documenter.getpostman.com/view/59154340/2sBYHUSzJ2)** · [OpenAPI spec](https://api.mervex.cc.cd/api/openapi.json) · [github.com/Msrfteam/Mervex](https://github.com/Msrfteam/Mervex)
 
 ---
 
